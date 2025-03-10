@@ -4,9 +4,40 @@
   "description": "-   https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
   "main": "index.js",
   "scripts": {
+    "oop:extends": "node --watch js/oop/oop-extends.js",
+    "oop:method": "node --watch js/oop/oop-method.js",
+    "oop": "node --watch js/oop/oop.js",
+    "mini:count": "node --watch js/extra/mini-count.js",
+    "sum": "node --watch js/extra/sum.js",
+    "mini:letters": "node --watch js/extra/mini-letters.js",
+    "mini:max": "node --watch js/extra/mini-max.js",
+    "mini:digits": "node --watch js/extra/mini-digits.js",
+    "mini": "node --watch js/extra/mini.js",
+    "summary": "node --watch js/summary.js",
+    "dest": "node --watch js/functions/18-dest.js",
+    "loops": "node --watch js/loops/17-loops.js",
+    "typeof": "node --watch js/functions/16-typeof.js",
+    "spread": "node --watch js/functions/15-spread.js",
+    "ref": "node --watch js/variables/14-ref.js",
+    "simas": "node --watch js/extra/simas.js",
+    "object": "node --watch js/variables/13-object.js",
+    "array:sort": "node --watch js/functions/12-array-sort.js",
+    "array:hof": "node --watch js/variables/11-array-hof.js",
+    "arrow": "node --watch js/functions/10-arrow.js",
+    "array:method": "node --watch js/variables/09-array-method.js",
+    "string:method": "node --watch js/variables/08-string-method.js",
+    "string": "node --watch js/variables/07-string.js",
+    "numbers": "node --watch js/variables/06-numbers.js",
+    "function": "node --watch js/intro/05-function.js",
+    "for": "node --watch js/intro/04-for.js",
+    "if": "node --watch js/intro/03-if.js",
+    "variables": "node --watch js/intro/02-variables.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "54-grupe-js-intro": "file:"
+  }
 }
